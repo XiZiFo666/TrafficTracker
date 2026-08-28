@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE and local tooling
+.idea/
+.vscode/
+.workbuddy/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Generated build and runtime output
+build/
+dist/
+results/
+logs/
+*.log
+*.tmp
+
+# Local databases and user data
+user_data.db
+*.sqlite
+*.sqlite3
+
+# Large/local media used for testing
+test_media/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# TensorRT compiled engines are machine/CUDA-version specific
+model/*.engine
+
+# Python packaging metadata
+*.egg-info/
+*.whl
+
+# OS files
+Thumbs.db
+Desktop.ini
