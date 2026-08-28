@@ -38,6 +38,8 @@ test_media/
 
 # TensorRT compiled engines are machine/CUDA-version specific
 model/*.engine
+model/*.pt
+model/*.onnx
 
 # Python packaging metadata
 *.egg-info/
